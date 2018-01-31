@@ -18,6 +18,9 @@ public class Main {
             System.out.println("Iveskite " + i + "-a skaiciu: ");
             mas[i]=sc.nextInt();
         }
+        Isvedimas(mas);
+    }
+    public void Isvedimas(int[] mas){
         System.out.println("Didesni nei 100 skaiciai yra: ");
         for (int i=0; i<mas.length; i++){
             if (mas[i]>100){
